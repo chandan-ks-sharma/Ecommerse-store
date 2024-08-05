@@ -1,0 +1,17 @@
+/* Custom styles for the cards */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.card {
+    background-color: #f8f9fa;
+    margin: 10px;
+    height: 87%;
+}
+
+.card img {
+    object-fit: cover;
+    height: 65%;
+}

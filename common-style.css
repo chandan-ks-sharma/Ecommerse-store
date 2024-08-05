@@ -1,0 +1,156 @@
+ /* Style for main content homepage to fixed cover image */
+ body{
+    margin: 0;
+    padding:0;
+    overflow-x: scroll;
+ }
+ .home-section{
+      margin-bottom: 150px;
+ }
+
+.hero-section, #cover{
+     object-fit: cover;
+     width: 100%;
+     height: 100vh;
+ }
+ .position-absolute {
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ .logo {
+     width: 200px;
+     height: auto;
+ }
+ .slogan {
+     font-size: 18px;
+ }
+
+
+  /* feature product card style */
+ card {
+    height:0;
+    margin: 0px;
+}
+
+.card img {
+    height: 22rem;
+}
+
+
+ /* style for header  */
+ body {
+     margin: 0;
+     padding: 0;
+ }
+
+ .firstpart .logo {
+     max-width: 250px;
+     height: auto;
+ }
+
+ .search-input {
+     width: 30rem;
+     border-radius: 0 0 0 15PX;
+ }
+
+ .search-bar button {
+     border-radius: 0 15px 0 0;
+ }
+
+ .login-section {
+     margin: 0;
+     column-gap: 1rem;
+ }
+
+ .cart-icon {
+     font-size: 30px;
+ }
+
+ /* Media Queries for Small Devices */
+ @media (max-width: 767px) {
+     body {
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+     }
+
+     .logo {
+         max-width: auto;
+         height: auto;
+     }
+
+     .navbar-brand {
+         order: -1;
+     }
+
+     .navbar-toggler {
+         order: 0;
+     }
+
+     .search-bar {
+         margin-top: 1rem;
+     }
+
+     .search-input {
+         width: auto;
+     }
+
+     .firstpart .login-section {
+         display: flex;
+         flex-direction: column;
+         position: relative;
+     }
+
+     .navbar.login-section li {
+         width: 100%;
+         text-align: center;
+         padding: 8px;
+     }
+
+     .navbar.login-section .login-btn {
+         width: 100%;
+     }
+
+     .navbar.login-section .cart-btn {
+         font-size: 1.5rem;
+     }
+
+     .cart-btn {
+         font-size: 30px;
+     }
+
+     .navbar-nav {
+         flex-direction: row;
+         column-gap: 5px;
+     }
+
+     .nav-item {
+         margin: 5px 0;
+     }
+
+     .dropdown-menu {
+         position: static;
+     }
+ }
+
+ /* style to footer section */
+ .footer {
+     padding: 5px 0;
+ }
+
+ hr {
+     margin: 0;
+ }
+
+ .copyright p {
+     margin: 0;
+     padding: 0;
+ }
+
+ h4 {
+     margin-bottom: 0px;
+ }
+
+
+
